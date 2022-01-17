@@ -19,7 +19,7 @@ Few-view or sparse-view computed tomography has been recently introduced as a gr
 
 # Source code and Implementation
 
-Implementation of MRDC-CNN is performed on TensorFlow framework with Python language. Source code to train is *Train.py* in companion with *Network.py* as a subroutine contaning the structure of MRDC-CNN. The source code used ML libraries of both Keras and PyTorch.
+Implementation of MRDC-CNN is performed on TensorFlow framework with Python language. Source code to train is *Train.py* in companion with *Network.py* as a subroutine containing the structure of MRDC-CNN. The source code used ML libraries of both Keras and PyTorch.
 
 
 # Test data
