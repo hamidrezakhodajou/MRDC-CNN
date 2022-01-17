@@ -29,3 +29,5 @@ CT images
 
 ![Colon](https://user-images.githubusercontent.com/42764887/149763656-02e82e6a-7ca0-4284-94f5-b694d3387c1a.png)
 
+![Kidney](https://user-images.githubusercontent.com/42764887/149764076-f188734e-0d4c-4dee-a614-ccd0abf6612c.png)
+
