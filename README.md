@@ -19,7 +19,7 @@ Download the trained networks such as standard cnn, u-net, and tight-frame u-net
 
 # Trained network
 
-Trained network for 'Standard CNN' is uploaded.
+**Trained network for 'Standard CNN' is uploaded.
 Trained network for 'U-Net' is uploaded.
 Trained network for 'Tight-frame U-Net' is uploaded.
 
