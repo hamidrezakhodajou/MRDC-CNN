@@ -28,11 +28,11 @@ Trained network for 'Tight-frame U-Net' is uploaded.
 Figures 1-3 portray representative CT reconstruction results of the MRDC-CNN by using "Test.ipynb" for various organs as an example.
 
 ![Colon](https://user-images.githubusercontent.com/42764887/149763656-02e82e6a-7ca0-4284-94f5-b694d3387c1a.png)
-Fig. 1. Representative reconstructed qualitative results from different views on a representative trunk test image for colon region. The reference images are presented in the first and second columns of the first row. The columns 3-5 of the first row contained reconstructed images of FBP (used as the input of our network), and the second row shows reconstructed results of the MRDC-CNN.
+Fig. 1. Representative reconstructed qualitative results from different views on a representative trunk-test image of the colon region. The reference images are presented in the first and second columns of the first row. Columns 3-5 of the first row contained reconstructed images of FBP (used as the input of our network), and the second row shows reconstructed results of the MRDC-CNN.
 
 ![Kidney](https://user-images.githubusercontent.com/42764887/149764076-f188734e-0d4c-4dee-a614-ccd0abf6612c.png)
-Fig. 2. Representative reconstructed qualitative results from different views on a representative trunk test image for kidney region. The reference images are presented in the first and second columns of the first row. The columns 3-5 of the first row contained reconstructed images of FBP (used as the input of our network), and the second row shows reconstructed results of the MRDC-CNN.
+Fig. 2. Representative reconstructed qualitative results from different views on a representative trunk-test image of the kidney region. The reference images are presented in the first and second columns of the first row. Columns 3-5 of the first row contained reconstructed images of FBP (used as the input of our network), and the second row shows reconstructed results of the MRDC-CNN.
 
 
 ![Liver_Tumor](https://user-images.githubusercontent.com/42764887/149764216-11523a8d-2ce7-4f4d-a4bd-59a9f6f6c86f.png)
-Fig. 3. Representative reconstructed qualitative results from different views on a representative trunk test image for liver region. The reference images are presented in the first and second columns of the first row. The columns 3-5 of the first row contained reconstructed images of FBP (used as the input of our network), and the second row shows reconstructed results of the MRDC-CNN.
+Fig. 3. Representative reconstructed qualitative results from different views on a representative trunk-test image of the liver region. The reference images are presented in the first and second columns of the first row. Columns 3-5 of the first row contained reconstructed images of FBP (used as the input of our network), and the second row shows reconstructed results of the MRDC-CNN.
