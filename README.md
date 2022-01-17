@@ -26,3 +26,6 @@ Trained network for 'Tight-frame U-Net' is uploaded.
 # Test data
 Iillustate the Fig. 5 for Framing U-Net via Deep Convolutional Framelets:Application to Sparse-view CT
 CT images 
+
+![Colon](https://user-images.githubusercontent.com/42764887/149763656-02e82e6a-7ca0-4284-94f5-b694d3387c1a.png)
+
