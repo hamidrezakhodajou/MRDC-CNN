@@ -31,3 +31,4 @@ CT images
 
 ![Kidney](https://user-images.githubusercontent.com/42764887/149764076-f188734e-0d4c-4dee-a614-ccd0abf6612c.png)
 
+![Liver_Tumor](https://user-images.githubusercontent.com/42764887/149764216-11523a8d-2ce7-4f4d-a4bd-59a9f6f6c86f.png)
