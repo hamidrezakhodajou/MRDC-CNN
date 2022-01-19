@@ -9,7 +9,6 @@ from skimage.measure import block_reduce
 from tensorflow.keras.optimizers import Adam
 
 import numpy as np 
-from glob import glob
 import random
 import os
 
