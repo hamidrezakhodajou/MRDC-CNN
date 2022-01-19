@@ -8,14 +8,6 @@ In revision process in Nuclear Inst. and Methods in Physics Research, A (No.: NI
 # Abstract 
 Few-view or sparse-view computed tomography has been recently introduced as a great potential to speed up data acquisition and alleviate the amount of patient radiation dose. This study aims to present a method for high-quality ultra-fast image reconstruction from sparsely sampled projections to overcome problems of previous methods, missing and blurring tissue boundaries, low-contrast objects, variations in shape and texture between the images of different individuals, and their outcomes. To this end, a new deep learning (DL) framework based on convolution neural network (CNN) models is proposed to solve the problem of CT reconstruction under sparsely sampled data, named the multi-receptive field densely connected CNN (MRDC-CNN). MRDC-CNN benefits from an encoder-decoder structure by proposing dense skip connections to recover the missing information, multi-receptive field modules to enlarge the receptive field, and having no batch normalization layers to boost the performance. The MRDC-CNN with a hybrid loss function format introduces several auxiliary losses combined with the main loss to accelerate convergence rate and alleviate the gradient vanishing problem during network training and maximize its performance. Results have shown that MRDC-CNN is 4-6 times faster than the state-of-the-art methods, with fewer memory requirements, better performance in other objective quality evaluations, and improved visual quality. The results indicated the superiority of our proposed method compared to the latest algorithms. In conclusion, the proposed method could lead to high quality CT imaging with quicker imaging speed and lower radiation dose.
 
-~~# Implementation~~
-~~MatConvNet (matconvnet-1.0-beta24)~~
-~~Please run the matconvnet-1.0-beta24/matlab/vl_compilenn.m file to compile matconvnet.
-~~There is instruction on http://www.vlfeat.org/matconvnet/mfiles/vl_compilenn/~~
-~~Frameing U-Net (matconvnet-1.0-beta24/examples/framing_u-net)
-~~Please run the matconvnet-1.0-beta24/examples/framing_u-net/install.m~~
-~~Install the customized library
-~~Download the trained networks such as standard cnn, u-net, and tight-frame u-net~~
 
 # Source code and Implementation
 
