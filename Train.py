@@ -1,13 +1,12 @@
-VIEW = 120      # 30, 60, 120 
-filters = 16    # Base Filters
-kernelSize = 3  # Kernel Size
-base_Layer = 4  # Base Layers
+VIEW = 120          # 30, 60, 120 
+base_filter = 16    # Base Filters
+kernelSize = 3      # Kernel Size
+base_Layer = 4      # Base Layers
 
 ################################################################################################################################
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior() 
+import tensorflow as tf
 from skimage.measure import block_reduce
-from keras.optimizers import Adam
+from tensorflow.keras.optimizers import Adam
 
 import numpy as np 
 from glob import glob
@@ -34,7 +33,8 @@ print('Max_64 : {:.1f}, Min_64 : {:.1f}'.format(np.max(np.max(train_Y64)),  np.m
 
 ################################################################################################################################
 from Network import MRDC_CNN
-model = MRDC_CNN(height=512, width=512, n_channels=1,filters=filters, kernelSize=kernelSize, base_Layer=base_Layer)
+
+model = MRDC_CNN(height=512, width=512, n_channels=1,base_filter=base_filter, kernelSize=kernelSize, base_Layer=base_Layer)
 model.summary()
 
 ################################################################################################################################
@@ -108,6 +108,11 @@ batch_size = 16
 for epoch in range(epochs):
     print()
     print('Epoch : {}'.format(epoch+1))
+    
+    train_Y512 = np.cast['float32'](train_Y512)
+    train_Y256 = np.cast['float32'](train_Y256)
+    train_Y128 = np.cast['float32'](train_Y128)
+    train_Y64 = np.cast['float32'](train_Y64)
 
     history = model.fit(train_X, [train_Y512, train_Y256, train_Y128, train_Y64], batch_size= batch_size, epochs=1, verbose=1) 
     
