@@ -17,12 +17,11 @@ Fig. 1. Schematic view of the proposed MRDC-CNN consisted of two parts: Encoder 
 
 
 # Usage
-The repository contains code to train the proposed reconstruction method (MRDC-CNN). Implementation of MRDC-CNN is performed on the Keras library, running on the machine learning platform TensorFlow.
+The repository contains code to train and test the proposed reconstruction method (MRDC-CNN). Implementation of MRDC-CNN is performed on the Keras library, running on the machine learning platform TensorFlow.
 
-1. The data is not contained in this repository and needs to be uploaded.
-Check (and modify if necessary) the directory paths for the data and results. By default, the data should be stored in the subdirectory Data and models are stored in the subdirectory models.
-2. Train networks using the script named *Train.py*.
-3. You can evaluate the trained networks on the test data using the script named *Test.ipynb*.
+1. The data and the trained model are not contained in this repository and needs to be uploaded. Check (and modify if necessary) the directory paths for the data and models. By default, the data should be stored in the subdirectory Data and models are stored in the subdirectory models.
+2. Train the MRDC-CNN network using the script named Train.py.
+3. You can evaluate the trained network on some test data using the script named Test.ipynb.
 
 # Representative Results
 
