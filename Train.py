@@ -9,7 +9,6 @@ from skimage.measure import block_reduce
 from tensorflow.keras.optimizers import Adam
 
 import numpy as np 
-import random
 import os
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
