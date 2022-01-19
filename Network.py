@@ -74,10 +74,10 @@ def MRDC_CNN(height, width, n_channels, base_filter=16, kernelSize=3, base_Layer
     MRFblock9 = MRF(base_filter, up9)
     
     
-    conv10 = conv2d(MRFblock9, 1,1,1, activation='linear',name= '512') #512
-    conv11 = conv2d(MRFblock8, 1,1,1, activation='linear', name= '256') #256
-    conv12 = conv2d(MRFblock7, 1,1,1, activation='linear', name= '128') #128
-    conv13 = conv2d(MRFblock6, 1,1,1, activation='linear', name= '64') #64
+    out_512 = conv2d(MRFblock9, 1,1,1, activation='linear',name= '512') #512
+    out_256 = conv2d(MRFblock8, 1,1,1, activation='linear', name= '256') #256
+    out_128 = conv2d(MRFblock7, 1,1,1, activation='linear', name= '128') #128
+    out_64 = conv2d(MRFblock6, 1,1,1, activation='linear', name= '64') #64
 
-    model = Model(inputs=[inputs], outputs=[conv10, conv11, conv12, conv13])
+    model = Model(inputs=[inputs], outputs=[out_512, out_256, out_128, out_64])
     return model
