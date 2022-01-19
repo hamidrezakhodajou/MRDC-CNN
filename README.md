@@ -11,7 +11,7 @@ Few-view or sparse-view computed tomography has been recently introduced as a gr
 # Algorithm
 The flowchart illustration of MRDC-CNN for sparse-view CT reconstruction is as follows:
 
-![imgpsh_fullsize_anim (1)](https://user-images.githubusercontent.com/42764887/150154109-805bc96d-66df-4c72-a8b6-6bb72e0055a5.png)
+![imgpsh_fullsize_anim (2)](https://user-images.githubusercontent.com/42764887/150157558-ec9a3106-0828-4987-8565-d68f9a5f4bd3.png)
 Fig. 1. Schematic view of the proposed MRDC-CNN consisted of two parts: Encoder part including MRF modules and max-pooling layers (in the red color), and decoder part including MRF modules and transposed convolution layers (in the purple color). The number of filters used in each MRF module is indicated in its own block. The structure of the MRF module is zoomed on the top-right side of the figure including 1x1, 3x3, and 5x5 convolution layers arranged in parallel. Also, the dense skip connection modules are portrayed on the top of the figure (the bold gray arrows), including a number of consecutive convolution layers associated with dense connections. The filled red blocks indicate auxiliary losses at the different levels. The size of clinical CT images is 512 (i.e. H=W=512).
 
 
