@@ -2,7 +2,7 @@
 
 
 # Paper
-"A Deep Learning Method for High-Quality Ultra-Fast CT Image Reconstruction from Sparsely Sampled Projections". Accepted,
+Khodajou-Chokami H, et al., "A Deep Learning Method for High-Quality Ultra-Fast CT Image Reconstruction from Sparsely Sampled Projections". Accepted,
 In publication process (Available online 11 February 2022, 166428) in Nuclear Inst. and Methods in Physics Research, A (https://doi.org/10.1016/j.nima.2022.166428).
 
 # Abstract 
